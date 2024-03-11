@@ -1,7 +1,7 @@
 import turtle
 import random
 
-# 함수 선언 부분 #
+## 함수 선언 부분 ##
 def screenLeftClick(x,y) : 
  global r, g, b
  turtle.pencolor((r, g, b))
@@ -20,11 +20,11 @@ def screenMidClick(x,y) :
  g = random.random()
  b = random.random()
 
-# 변수 선언 부분 #
+## 변수 선언 부분 ##
 pSize =10
 r, g, b = 0.0, 0.0, 0.0
 
-# 메인 코드 부분 #
+## 메인 코드 부분 ##
 turtle.title('거북이로 그림 그리기')
 turtle.shape('turtle')
 turtle.pensize(pSize)
