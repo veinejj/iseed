@@ -26,7 +26,7 @@ nn[2:] = []         #답 : [100, 200]
 total = 0
 num = 0
 
-for num in range(3333, 9999):
+for num in range(3333, 10000):
     if num % 1234 != 0:
         continue
     if total + num >= 100000:
